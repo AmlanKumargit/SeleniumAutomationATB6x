@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true"
           name="C:/Users/amlan/IdeaProjects/SeleniumAutomationATB6x/src/test/java/com/amlankumar/Demo.java">
         <classes>
-            <class name="com.amlankumar.Demo"></class>
+            <class name="com.Project2.ex16082024"></class>
         </classes>
         
     </test>
