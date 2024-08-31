@@ -76,7 +76,12 @@ public class ex160824 {
         }
 
         String dashboardText = driver.findElement(By.cssSelector("[data-qa='lufexuloga']")).getText();
-        Assert.assertEquals("V W", dashboardText);
+        Assert.assertEquals(dashboardText, "V W");
+
+        WebElement user_icon = driver.findElement(By.xpath("(//img[@alt='V W'])[2]"));
+        user_icon.click();
+        WebElement logoutBtn = driver.findElement(By.xpath("//ul[@class=\"dropdown-menu-list Miw(140px)\"]/li[2]"));
+        logoutBtn.click();
 
         driver.quit();
     }
